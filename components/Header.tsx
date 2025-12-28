@@ -45,9 +45,9 @@ const Header: React.FC = () => {
               href="https://wa.me/967772655825"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 px-6 py-2.5 rounded-full gradient-bg font-bold shadow-lg shadow-purple-500/20 hover:scale-105 transition-transform duration-200"
+              className="flex items-center gap-2 px-6 py-2.5 rounded-full gradient-bg font-bold shadow-lg shadow-purple-500/20 hover:scale-105 hover:brightness-125 hover:shadow-purple-500/40 transition-all duration-300 group"
             >
-              <MessageCircle size={20} />
+              <MessageCircle size={20} className="group-hover:scale-110 group-hover:-rotate-12 transition-transform duration-300" />
               <span>واتساب</span>
             </a>
           </div>
@@ -81,9 +81,9 @@ const Header: React.FC = () => {
             href="https://wa.me/967772655825"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center gap-2 w-full py-4 rounded-xl gradient-bg font-bold text-lg"
+            className="flex items-center justify-center gap-2 w-full py-4 rounded-xl gradient-bg font-bold text-lg hover:brightness-125 transition-all duration-300 group"
           >
-            <MessageCircle size={22} />
+            <MessageCircle size={22} className="group-hover:scale-110 group-hover:-rotate-12 transition-transform duration-300" />
             واتساب
           </a>
         </div>
